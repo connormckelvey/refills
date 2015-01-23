@@ -7,4 +7,5 @@
 $(document).ready(function() {
   $('#example').erToc({'goTopNode':'#example', 'startLevel': 'h2', 'numberedSuffix':'. '});
   $('.refills-menu-anchor').fixedsticky();
+  FastClick.attach(document.body);
 });
